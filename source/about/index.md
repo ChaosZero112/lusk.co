@@ -1,7 +1,7 @@
 title: Welcome
 ---
 
-Hry Theree
+Hey There,
 
 You've reached the testing server of Cody. There's nothing really to see here as all the magic happens in the background.
 
