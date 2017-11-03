@@ -1,32 +1,10 @@
-# Hexo Official Website
-<!-- Markdown snippet -->
-[![Build Status](https://travis-ci.org/hexojs/site.svg?branch=master)](https://travis-ci.org/hexojs/site)
+# About
+Source files for the lusk.co website.
 
-The website for Hexo. You can see the generated files at [hexojs/hexojs.github.io](https://github.com/hexojs/hexojs.github.io) repository.
+Built using [Hexo](https://hexo.io) ([repository](https://github.com/hexojs/hexojs.github.io)).
 
-## Getting started
 
-Install dependencies:
-
-``` bash
-$ git clone https://github.com/hexojs/site.git
-$ cd site
-$ npm install
-```
-
-Generate:
-
-``` bash
-$ hexo generate
-```
-
-Run server:
-
-``` bash
-$ hexo server
-```
-
-## Contributors
+## Hexo Credits
 
 - English - [tommy351](https://github.com/tommy351)
 - 正體中文 - [tommy351](https://github.com/tommy351)
@@ -38,6 +16,3 @@ $ hexo server
 ## License
 
 [CC BY 4.0](http://creativecommons.org/licenses/by/4.0/)
-
-[tommy351]: https://github.com/tommy351
-[pinggod]: https://github.com/pinggod
