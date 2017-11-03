@@ -1,6 +1,6 @@
 ########################################################
-# 版本：version 1.0
-# ps: 继承至hexo的 _config.yml文件
+# Ver：version 1.0
+# ps: _config.yml
 ##########################################################
 
 # html lang
@@ -9,16 +9,18 @@ language: en
 # main menu navigation
 #menu:
 #  Home : /
-  #归档: /archives
-  #关于: /about   # 默认使用主页的about风格,所以先注释掉 #
+# Archives : /archives
+# About : /about   # 默认使用主页的about风格,所以先注释掉 #
 
 # stylesheets loaded in the <head>
 stylesheets:
 - /css/legend.css
+- /css/contact-form.css
 
 # scripts loaded in the end of the body
 scripts:
 - /js/legend.js
+- /js/legend.css
 
 ##########################################################################
 ####(最外层_config.yml)修改的参数 
@@ -27,10 +29,10 @@ scripts:
 # theme: 添加本主题 theme: legend ，请确保本主题文件在theme目录下
 ####################################################################################
 
-# comment 来必力评论data-uid
+# Comments Intergration (LiveRe)
 #livere_uid: MTAyMC8yOTI2MS81ODI5
 
-# donate 打赏
+# donate 
 #wechatpay: /images/wechatpay.png
 #alipay:  /images/alipay.png
 #reward_comment: 文章对我有帮助，打赏作者
@@ -52,7 +54,7 @@ social:
 #   url: https://twitter.com/ihongren
 #   icon: /images/twitter.png
 
-##可选修改部分############################################################
+##############################################################
 # Miscelaneous
 favicon: /favicon.ico
 
@@ -68,33 +70,33 @@ favicon: /favicon.ico
 #type: atom
 #path: atom
 
-# 主题主颜色
-theme_color: '#6d5aca'  #尝试替换自己喜欢的颜色 '#2ca6cb'... #
+# Theme colors
+theme_color: '#3885bc'  #尝试替换自己喜欢的颜色 '#2ca6cb'... #
 theme_highlight_color: '#4400B3' # '#00bfff'... #
 
 # 代码主题 目前添加了两种: tomorrow.css | tomorrow-night.css  
 # 想要尝试更多请移步: https://jmblog.github.io/color-themes-for-google-code-prettify/ #
 code_theme: /plugins/code-theme/tomorrow.css
 
-# 主题的主字体 (header,footer...部分)
+# Font (header,footer...)
 theme_font_family: Microsoft Yahei
 
-# 首页背景视频 show表示是否要显示#
+# Background
 home_video: 
   src: "http://cdn.calm.com/scenes/scene-Qqkzy9k7Eo.mp4?v=1418162238190"
   show: true
   bgimage: /images/background.png
 
-# 背景音频源 #
+# Audio
 audio_src: "http://cdn.calm.com/scenes/scene-Qqkzy9k7Eo.m4a?v=1418162240715"
 
-# 主页音频是否显示 #
+# Audio on Home
 home_audio: false
 
-# 文章页音频是否显示 #
+# Audio on Posts
 post_audio: false
 
-# 背景图片 #
+# Static bg image #
 home_bgimage: /images/background.png
 
 # 关于页面设置，怎么生成关于页面? 命令:$ hexo new page "about"" #
