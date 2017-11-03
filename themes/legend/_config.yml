@@ -7,8 +7,8 @@
 language: en
 
 # main menu navigation
-menu:
-  Home : /
+#menu:
+#  Home : /
   #归档: /archives
   #关于: /about   # 默认使用主页的about风格,所以先注释掉 #
 
