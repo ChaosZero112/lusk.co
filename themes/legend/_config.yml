@@ -4,7 +4,12 @@
 ##########################################################
 
 # html lang
+title: Lusk.co
+subtitle: "A fast, simple & powerful blog framework powered by Hexo (Node.js)."
+description: "Lusk.co is a personal webserver"
+author: Cody Lusk
 language: en
+timezone: America/Toronto
 
 # main menu navigation
 #menu:
