@@ -13,9 +13,9 @@ post_asset_folder: false
 per_page: 0
 
 theme: legend
-deploy:
-  type: git
-  repo: git@github.com:iHongRen/legend.git
+#deploy:
+#  type: git
+#  repo: git@github.com:iHongRen/legend.git
 
 highlight:
   enable: true
