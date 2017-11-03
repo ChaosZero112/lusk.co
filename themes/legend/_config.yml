@@ -20,7 +20,7 @@ stylesheets:
 # scripts loaded in the end of the body
 scripts:
 - /js/legend.js
-- /js/legend.css
+- /js/contact-form.js
 
 ##########################################################################
 ####(最外层_config.yml)修改的参数 
